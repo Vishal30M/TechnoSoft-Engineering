@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+  <g id="Group_8348" data-name="Group 8348" transform="translate(-632.5 -2054.5)">
+    <g id="Group_8344" data-name="Group 8344" transform="translate(632.5 2054.5)">
+      <g id="Group_1582" data-name="Group 1582" transform="translate(0 0)">
+        <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="40" cy="40" rx="40" ry="40" transform="translate(0.5 0.5)" fill="#014d98" stroke="#d1e8ff" stroke-width="1"/>
+        <path id="Path_3793" data-name="Path 3793" d="M26.2,1H10.048A5.05,5.05,0,0,0,5,6.048V40.378a5.05,5.05,0,0,0,5.048,5.048H26.2a5.05,5.05,0,0,0,5.048-5.048V6.048A5.05,5.05,0,0,0,26.2,1ZM18.126,43.407a3.029,3.029,0,1,1,3.029-3.029A3.025,3.025,0,0,1,18.126,43.407Zm9.087-8.077H9.039V7.058H27.213Z" transform="translate(22 17)" fill="#fff"/>
+      </g>
+      <g id="location_on_black_24dp" transform="translate(8.526 8.29)">
+        <path id="Path_1070" data-name="Path 1070" d="M0,0H61.481V61.481H0Z" transform="translate(0 0)" fill="none"/>
+      </g>
+    </g>
+    <g id="phone_iphone_black_24dp" transform="translate(640.881 2061.747)">
+      <path id="Path_1072" data-name="Path 1072" d="M0,0H56.95V56.95H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>
