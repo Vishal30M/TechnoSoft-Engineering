@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #fff;
+  }
+
+#home {
+    background: url(images/banner/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 90px;
+}
+
+.h-1{
+    padding: 0;
+}
+
+.h-1 h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.h-1 h1 span {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn {
+    color: #fff;
+}
+
+.line {
+    display: inline-block;
+    border-left: 2px solid #464646; 
+    height: 25px; 
+    margin: 0 5px; 
+  }
+
+  .home-bottom {
+    background-color:#000;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  } 
+
+  .hb-head {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .hb-para {
+    font-size: 15px;
+  }
+
+  .num {
+    font-size: 35px;
+  }
+
+  .border-left {
+    border-left: 1px solid white;
+  }
+
+  
+  .r-2 {
+    background: url(images/about/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+ .about-head1 {
+    color: rgb(22, 99, 176);
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px;
+    margin: 0;
+ }
+
+ .about-head2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 100px;
+ }
+
+ .s-2 {
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(22, 99, 176);
+ }
+
+ .about-para {
+    font-size: 20px;
+    font-weight:bold;
+    color: #000;
+    padding: 150px 50px 150px 50px;
+ }
+
+ .image-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 99, 176, 0.738); /* Adjust the background color as desired */
+     color: #fff;/* Adjust the text color as desired */
+    padding: 10px; /* Adjust the padding as desired */
+    font-size: 18px; /* Adjust the font size as desired */
+  }
+  
+
+  .overlay-text h3 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .s-3 {
+    font-size: 18px;
+  }
+  #service .row {
+    justify-content: center;
+  }
+
+  #service {
+    background-color: #d5dbeb;
+  }
+  
+  .serv-head {
+    color: rgb(22, 99, 176);
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px 0;
+    margin: 0;
+ }
+
+ .serv-head1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
+
+ .serv-head2 {
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(22, 99, 176);
+ }
+
+ .faq-section {
+  width: 100%;
+}
+
+.faq-question {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  padding: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.faq-question h3 {
+  margin: 0;
+}
+
+.faq-toggle {
+  float: left;
+  margin-right: 10px;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+}
+
+.faq-head {
+  font-size: 25px;
+  font-weight: 400;
+  padding: 20px 0;
+  margin: 0;
+  color: rgb(22, 99, 176);
+  margin-top: 10px;
+}
+
+.faq-head1 {
+  font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.faq-head2 {
+  font-size: 55px;
+  font-weight: 600;
+  color: rgb(22, 99, 176);
+  margin-bottom: 5px;
+}
+
+.faq-head3 {
+  font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.faq-question h3 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+}
+
+.faq-toggle {
+  font-size: 25px;
+  color: rgb(22, 99, 176);
+  font-weight: 400;
+}
+ 
+#contact {
+  background: url(images/footer/footer\ bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.contact-head{
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px 0;
+  margin: 0;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.contact-head1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.contact-head2 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 300px;
+  color: #fff;
+}
+
+.form {
+  padding: 100px 200px;
+  margin-top: -400px;
+  background-color: #fff;
+}
+
+.foot {
+  background-color: #d5dbeb;
+}
+
+.foot-link {
+  font-size: 20px;
+  color: #000;
+}
+
+.foot-para span {
+  color: rgb(31, 75, 254);;
+}
