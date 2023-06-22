@@ -9,7 +9,7 @@ body {
     background: url(images/banner/home.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 200px 90px;
 }
 
@@ -64,12 +64,15 @@ body {
     border-left: 1px solid white;
   }
 
+  .border-top {
+    display: none;
+  }
   
   .r-2 {
     background: url(images/about/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
   }
 
  .about-head1 {
@@ -273,4 +276,422 @@ body {
 
 .foot-para span {
   color: rgb(31, 75, 254);;
+}
+
+@media (max-width: 767px) {
+  /* Styles for screens up to 767px wide (mobile devices) */
+
+  #home {
+    padding: 100px 30px;
+    background: url(images/banner/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+  }
+
+  .log {
+    max-width: 80%;
+    padding-left: 0;
+  }
+
+  .h-1 h1 {
+    font-size: 26px;
+  }
+
+  .h-1 h1 span {
+    font-size: 38px;
+  }
+
+  .home-bottom {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+ 
+  .r-a .col-sm-6 {
+    border-top: 1px solid #fff;
+  }
+
+  .r-a .col-sm-6 h3 {
+    margin-top: 20px;
+  }
+
+  .r-a .col-sm-6 {
+    
+    padding-bottom: 20px;
+  }
+
+  .hb-head {
+    font-size: 14px;
+  }
+
+  .hb-para {
+    font-size: 12px;
+  }
+
+  .num {
+    font-size: 24px;
+  }
+
+  .r-2 {
+    background: url(images/about/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+  }
+
+  .abt-p {
+    padding: ;
+  }
+
+  .about-head1 {
+    font-size: 26px;
+    padding: 50px 50px 20px 50px;
+  }
+
+  .about-head2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .s-2 {
+    font-size: 38px;
+    margin-top: 20px;
+  }
+
+  .about-para {
+    font-size: 16px;
+    padding: 0 10px 30px 10px;
+  }
+
+  .serv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .overlay-text {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .overlay-text h3 {
+    font-size: 18px;
+  }
+
+  .s-3 {
+    font-size: 14px;
+  }
+
+  .serv-head {
+    font-size: 26px;
+    padding: 20px 0;
+  }
+
+  .serv-head1 {
+    font-size: 24px;
+  }
+
+  .serv-head2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+
+  .faq-head {
+    font-size: 26px;
+    margin-top: 20px;
+  }
+
+  .faq-head1 {
+    font-size: 24px;
+  }
+
+  .faq-head2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+
+  .faq-head3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .faq-question h3 {
+    font-size: 14px;
+  }
+
+  .faq-toggle {
+    font-size: 20px;
+  }
+
+  #contact{
+    padding: 0 10px 150px 10px;
+  }
+
+  .contact-head {
+    font-size: 26px;
+    
+  }
+
+  .contact-head1 {
+    font-size: 24px;
+  }
+
+  .contact-head2 {
+    font-size: 38px;
+    margin-bottom: 100px;
+  }
+
+  .form {
+    padding: 60px 20px;
+    margin-top: -200px;
+  }
+
+  .max-width-20 {
+    max-width: 50%;
+  }
+
+  .spec {
+    margin: 20px 0;
+  }
+
+  .foot-link {
+    font-size: 16px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for medium-sized screens (tablets) */
+
+  /* Existing styles... */
+
+  /* Additional styles for medium-sized screens */
+
+  #home {
+    
+    background: url(images/banner/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+  }
+
+
+  .r-2 {
+    background: url(images/about/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+  }
+
+  .log {
+    max-width: 90%; /* Increase the max-width value to make it wider */
+  }
+
+  .h-1 h1 {
+    font-size: 30px; /* Increase the font size for the heading */
+  }
+
+  .h-1 h1 span {
+    font-size: 42px; /* Increase the font size for the span within the heading */
+  }
+
+  .about-head1 {
+    font-size: 30px; /* Increase the font size for the about section heading */
+    padding: 40px; /* Adjust the padding as desired */
+  }
+
+  .about-head2 {
+    font-size: 28px; /* Increase the font size for the subheading */
+    margin-bottom: 30px; /* Adjust the margin as desired */
+  }
+
+  .s-2 {
+    font-size: 42px; /* Increase the font size for the section 2 heading */
+    margin-top: 30px; /* Adjust the margin as desired */
+  }
+
+  .about-para {
+    font-size: 18px; /* Increase the font size for the paragraph text */
+    padding: 0 20px 30px 20px; /* Adjust the padding as desired */
+  }
+
+  .serv-head {
+    font-size: 30px; /* Increase the font size for the services section heading */
+    padding: 30px 0; /* Adjust the padding as desired */
+  }
+
+  .serv-head1 {
+    font-size: 28px; /* Increase the font size for the subheading */
+  }
+
+  .serv-head2 {
+    font-size: 42px; /* Increase the font size for the section 2 heading */
+    margin-bottom: 40px; /* Adjust the margin as desired */
+  }
+
+  .faq-head {
+    font-size: 30px; /* Increase the font size for the FAQ section heading */
+    margin-top: 30px; /* Adjust the margin as desired */
+  }
+
+  .faq-head1 {
+    font-size: 28px; /* Increase the font size for the subheading */
+  }
+
+  .faq-head2 {
+    font-size: 42px; /* Increase the font size for the section 2 heading */
+    margin-bottom: 20px; /* Adjust the margin as desired */
+  }
+
+  .faq-head3 {
+    font-size: 24px; /* Increase the font size for the subheading */
+    margin-bottom: 20px; /* Adjust the margin as desired */
+  }
+
+  .faq-question h3 {
+    font-size: 16px; /* Increase the font size for the FAQ question heading */
+  }
+
+  .faq-toggle {
+    font-size: 22px; /* Increase the font size for the FAQ toggle */
+  }
+
+  #contact{
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .contact-head {
+    font-size: 30px; /* Increase the font size for the contact section heading */
+  }
+
+  .contact-head1 {
+    font-size: 28px; /* Increase the font size for the subheading */
+  }
+
+  .contact-head2 {
+    font-size: 42px; /* Increase the font size for the section 2 heading */
+    margin-bottom: 120px; /* Adjust the margin as desired */
+  }
+
+  .form {
+    padding: 80px 30px; /* Adjust the padding as desired */
+    margin-top: -150px; /* Adjust the margin-top as desired */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Styles for screens larger than 1023px (desktop screens) */
+
+  /* Existing styles for medium-sized screens (tablets) */
+
+  /* Additional styles for screens larger than 1023px */
+
+  #home {
+    background: url(images/banner/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+  }
+
+  .r-2 {
+    background: url(images/about/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+  }
+
+  .log {
+    max-width: 80%; /* Adjust the max-width value as desired */
+  }
+
+  .h-1 h1 {
+    font-size: 26px; /* Adjust the font size as desired */
+  }
+
+  .h-1 h1 span {
+    font-size: 38px; /* Adjust the font size as desired */
+  }
+
+  .about-head1 {
+    font-size: 26px; /* Adjust the font size as desired */
+    padding: 50px 50px 20px 50px; /* Adjust the padding as desired */
+  }
+
+  .about-head2 {
+    font-size: 24px; /* Adjust the font size as desired */
+    margin-bottom: 20px; /* Adjust the margin as desired */
+  }
+
+  .s-2 {
+    font-size: 38px; /* Adjust the font size as desired */
+    margin-top: 20px; /* Adjust the margin as desired */
+  }
+
+  .about-para {
+    font-size: 26px; /* Adjust the font size as desired */
+    padding: 50px 10px 30px 10px; /* Adjust the padding as desired */
+  }
+
+  .serv-head {
+    font-size: 26px; /* Adjust the font size as desired */
+    padding: 20px 0; /* Adjust the padding as desired */
+  }
+
+  .serv-head1 {
+    font-size: 24px; /* Adjust the font size as desired */
+  }
+
+  .serv-head2 {
+    font-size: 38px; /* Adjust the font size as desired */
+    margin-bottom: 30px; /* Adjust the margin as desired */
+  }
+
+  .faq-head {
+    font-size: 26px; /* Adjust the font size as desired */
+    margin-top: 20px; /* Adjust the margin as desired */
+  }
+
+  .faq-head1 {
+    font-size: 24px; /* Adjust the font size as desired */
+  }
+
+  .faq-head2 {
+    font-size: 38px; /* Adjust the font size as desired */
+    margin-bottom: 10px; /* Adjust the margin as desired */
+  }
+
+  .faq-head3 {
+    font-size: 22px; /* Adjust the font size as desired */
+    margin-bottom: 10px; /* Adjust the margin as desired */
+  }
+
+  .faq-question h3 {
+    font-size: 14px; /* Adjust the font size as desired */
+  }
+
+  .faq-toggle {
+    font-size: 20px; /* Adjust the font size as desired */
+  }
+
+  #contact {
+    padding: 0 10px 150px 10px; /* Adjust the padding as desired */
+  }
+
+  .contact-head {
+    font-size: 26px; /* Adjust the font size as desired */
+  }
+
+  .contact-head1 {
+    font-size: 24px; /* Adjust the font size as desired */
+  }
+
+  .contact-head2 {
+    font-size: 38px; /* Adjust the font size as desired */
+    margin-bottom: 100px; /* Adjust the margin as desired */
+  }
+
+  .form {
+    padding: 60px 20px; /* Adjust the padding as desired */
+    margin-top: -200px; /* Adjust the margin-top as desired */
+  }
 }
