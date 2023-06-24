@@ -1,8 +1,10 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1><b>📚</b></h1>
-  <h2><b>Awesome Books</b></h2>
+ <img src="images/logo/technosoft-logo.svg" alt="logo" />
+  <br/>
+  
+  <h2><b>TechnoSoft Engineering</b></h2>
 </div>
 
 ---
@@ -36,14 +38,14 @@
 
 # 📖 Awesome Books <a name="about-project"></a>
 
-**Awesome Books** Is a project to build a basic website that allows users to add/remove books from a list.
+**Technosoft Engineering** Is a project to build a landing page.
 
 ---
 
 #### Learning objectives
 
-- Understand different ways to create objects in JavaScript.
-- Create and access properties and methods of JavaScript objects.
+- Created Landing Page using bootstrap.
+- Added styles for the landing page different break-points.
 
 ---
 
@@ -71,8 +73,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Dynamic Injection of HTML Markup**
-- **Browser Local Storage**
+- **Responsive Website**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
