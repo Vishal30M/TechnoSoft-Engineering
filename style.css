@@ -9,7 +9,7 @@ body {
     background: url(images/banner/home.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 10% 10%;
     padding: 200px 90px;
 }
 
@@ -286,7 +286,7 @@ body {
     background: url(images/banner/home.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 110% 100%;
+    background-size: 100% 100%;
   }
 
   .log {
@@ -471,7 +471,7 @@ body {
     background: url(images/banner/home.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 110% 100%;
+    background-size: 100% 100%;
   }
 
 
@@ -590,7 +590,7 @@ body {
     background: url(images/banner/home.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 110% 100%;
+    background-size: 100% 100%;
   }
 
   .r-2 {
