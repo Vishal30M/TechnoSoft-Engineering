@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Inter", sans-serif;
+    font-family: "poppins", sans-serif;
     background-color: #fff;
   }
 
@@ -9,8 +9,21 @@ body {
     background: url(images/banner/home.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 10% 10%;
-    padding: 200px 90px;
+    background-size: 100% 100%;
+    padding: 150px 90px 250px 100px;
+}
+
+.navbar-brand .log {
+  max-width: 70%;
+  margin-right: 0;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.navbar-brand a {
+  margin: 0;
 }
 
 .h-1{
@@ -18,19 +31,27 @@ body {
 }
 
 .h-1 h1 {
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
     color: #fff;
 }
 
 .h-1 h1 span {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
+    line-height: 2;
 }
 
-.btn {
+.btn1 {
     color: #fff;
+    background-color: rgb(10, 83, 156);
+    border-radius: 10px;
+}
+
+.btn{
+  color: #fff;
+  font-size: 10px:;
 }
 
 .line {
@@ -86,7 +107,7 @@ body {
  .about-head2 {
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
  }
 
  .s-2 {
@@ -96,55 +117,67 @@ body {
  }
 
  .about-para {
-    font-size: 20px;
-    font-weight:bold;
-    color: #000;
+    font-size: 16px;
+   font-weight: 300;
+    color: #212529;
     padding: 150px 50px 150px 50px;
  }
 
  .image-container {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            display: inline-block;
+            margin-bottom: 20px;
   }
+
+  .image-container:hover {
+    transform: scale(1.1);
+}
   
   .overlay-text {
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
-    
+    transition: opacity 0.3s ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(22, 99, 176, 0.738); /* Adjust the background color as desired */
      color: #fff;/* Adjust the text color as desired */
     padding: 10px; /* Adjust the padding as desired */
-    font-size: 18px; /* Adjust the font size as desired */
+    font-size: 18px;
+    opacity: 0.2;
   }
+
+  .image-container:hover .overlay-text {
+    opacity: 1;
+}
   
 
   .overlay-text h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
   }
 
   .s-3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   #service .row {
     justify-content: center;
   }
 
   #service {
-    background-color: #d5dbeb;
+    background-color: #e5f3fd;
+    padding: 50px;
   }
   
   .serv-head {
     color: rgb(22, 99, 176);
     font-size: 30px;
     font-weight: 400;
-    padding: 50px 0;
+    padding-top: 150px;
     margin: 0;
  }
 
@@ -269,6 +302,15 @@ body {
   background-color: #d5dbeb;
 }
 
+.fot-img .log {
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+.max-width-20 {
+  max-width: 70%;
+}
+
 .foot-link {
   font-size: 20px;
   color: #000;
@@ -278,8 +320,16 @@ body {
   color: rgb(31, 75, 254);;
 }
 
+.folow {
+  margin-bottom: 5px;
+}
+
 @media (max-width: 767px) {
   /* Styles for screens up to 767px wide (mobile devices) */
+
+.nav-1 {
+  width: 100%;
+}
 
   #home {
     padding: 100px 30px;
@@ -294,18 +344,33 @@ body {
     padding-left: 0;
   }
 
+.navbar-toggler {
+ padding: 0;
+ right: 0;
+}
+
   .h-1 h1 {
-    font-size: 26px;
+    font-size: 20px;
+    font-weight: 600;
   }
 
   .h-1 h1 span {
-    font-size: 38px;
+    font-size: 25px;
+    font-weight: 400;
   }
 
   .home-bottom {
     padding-top: 0;
     padding-bottom: 0;
   }
+
+  .r-A {
+    border-left: none !important;
+}
+
+.r-a {
+  padding-bottom: 20px;
+}
  
   .r-a .col-sm-6 {
     border-top: 1px solid #fff;
@@ -339,28 +404,29 @@ body {
     background-size: 90% 100%;
   }
 
-  .abt-p {
-    padding: ;
-  }
-
   .about-head1 {
     font-size: 26px;
     padding: 50px 50px 20px 50px;
   }
 
   .about-head2 {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 20px;
+    padding: 0 20px;
   }
 
   .s-2 {
-    font-size: 38px;
-    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 30px;
   }
 
   .about-para {
     font-size: 16px;
-    padding: 0 10px 30px 10px;
+    padding: 0 20px 30px 20px;
+  }
+
+  #service {
+    padding: 0 30px;
   }
 
   .serv {
@@ -387,11 +453,11 @@ body {
   }
 
   .serv-head1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .serv-head2 {
-    font-size: 38px;
+    font-size: 30px;
     margin-bottom: 30px;
   }
 
@@ -401,17 +467,21 @@ body {
   }
 
   .faq-head1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .faq-head2 {
-    font-size: 38px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
   }
 
   .faq-head3 {
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .faq-question {
+    margin: 10px 20px;
   }
 
   .faq-question h3 {
@@ -449,6 +519,10 @@ body {
     max-width: 50%;
   }
 
+  .call {
+    margin-left: -10px;
+  }
+
   .spec {
     margin: 20px 0;
   }
@@ -457,241 +531,352 @@ body {
     font-size: 16px;
     padding-right: 10px;
   }
+
+  .foot-para {
+    font-size: 12px;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  /* Styles for medium-sized screens (tablets) */
 
-  /* Existing styles... */
+ /* Additional styles for medium-sized screens */
 
-  /* Additional styles for medium-sized screens */
-
+@media only screen and (min-width: 768px) and (max-width: 1280px)  {
   #home {
-    
     background: url(images/banner/home.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-  }
-
-
-  .r-2 {
-    background: url(images/about/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 90% 100%;
-  }
-
-  .log {
-    max-width: 90%; /* Increase the max-width value to make it wider */
-  }
-
-  .h-1 h1 {
-    font-size: 30px; /* Increase the font size for the heading */
-  }
-
-  .h-1 h1 span {
-    font-size: 42px; /* Increase the font size for the span within the heading */
-  }
-
-  .about-head1 {
-    font-size: 30px; /* Increase the font size for the about section heading */
-    padding: 40px; /* Adjust the padding as desired */
-  }
-
-  .about-head2 {
-    font-size: 28px; /* Increase the font size for the subheading */
-    margin-bottom: 30px; /* Adjust the margin as desired */
-  }
-
-  .s-2 {
-    font-size: 42px; /* Increase the font size for the section 2 heading */
-    margin-top: 30px; /* Adjust the margin as desired */
-  }
-
-  .about-para {
-    font-size: 18px; /* Increase the font size for the paragraph text */
-    padding: 0 20px 30px 20px; /* Adjust the padding as desired */
-  }
-
-  .serv-head {
-    font-size: 30px; /* Increase the font size for the services section heading */
-    padding: 30px 0; /* Adjust the padding as desired */
-  }
-
-  .serv-head1 {
-    font-size: 28px; /* Increase the font size for the subheading */
-  }
-
-  .serv-head2 {
-    font-size: 42px; /* Increase the font size for the section 2 heading */
-    margin-bottom: 40px; /* Adjust the margin as desired */
-  }
-
-  .faq-head {
-    font-size: 30px; /* Increase the font size for the FAQ section heading */
-    margin-top: 30px; /* Adjust the margin as desired */
-  }
-
-  .faq-head1 {
-    font-size: 28px; /* Increase the font size for the subheading */
-  }
-
-  .faq-head2 {
-    font-size: 42px; /* Increase the font size for the section 2 heading */
-    margin-bottom: 20px; /* Adjust the margin as desired */
-  }
-
-  .faq-head3 {
-    font-size: 24px; /* Increase the font size for the subheading */
-    margin-bottom: 20px; /* Adjust the margin as desired */
-  }
-
-  .faq-question h3 {
-    font-size: 16px; /* Increase the font size for the FAQ question heading */
-  }
-
-  .faq-toggle {
-    font-size: 22px; /* Increase the font size for the FAQ toggle */
-  }
-
-  #contact{
-    padding-top: 50px;
-    padding-bottom: 100px;
-  }
-
-  .contact-head {
-    font-size: 30px; /* Increase the font size for the contact section heading */
-  }
-
-  .contact-head1 {
-    font-size: 28px; /* Increase the font size for the subheading */
-  }
-
-  .contact-head2 {
-    font-size: 42px; /* Increase the font size for the section 2 heading */
-    margin-bottom: 120px; /* Adjust the margin as desired */
-  }
-
-  .form {
-    padding: 80px 30px; /* Adjust the padding as desired */
-    margin-top: -150px; /* Adjust the margin-top as desired */
-  }
+    padding: 150px 90px 250px 100px;
 }
 
-@media (min-width: 1024px) {
-  /* Styles for screens larger than 1023px (desktop screens) */
+.navbar {
+  justify-content: center;
+}
 
-  /* Existing styles for medium-sized screens (tablets) */
+.navbar-brand .log {
+  max-width: 70%;
+  margin-right: 0;
+}
 
-  /* Additional styles for screens larger than 1023px */
+.h-1{
+    padding: 0;
+}
 
-  #home {
-    background: url(images/banner/home.jpg);
+.h-1 h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.h-1 h1 span {
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1;
+}
+
+.btn1 {
+    color: #fff;
+    background-color: rgb(10, 83, 156);
+}
+
+.btn{
+  color: #fff;
+  font-size: 10px:;
+}
+
+.line {
+    display: inline-block;
+    border-left: 2px solid #464646; 
+    height: 25px; 
+    margin: 0 5px; 
+  }
+
+  .home-bottom {
+    background-color:#000;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  } 
+
+  .hb-head {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .hb-para {
+    font-size: 15px;
+  }
+
+  .num {
+    font-size: 35px;
+  }
+
+  .border-left {
+    border-left: 1px solid white;
+  }
+
+  .border-top {
+    display: none;
+  }
+  
+  .r-2 {
+    background: url(images/about/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
 
   .r-2 {
-    background: url(images/about/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 90% 100%;
+    display: flex;
+    align-items: stretch; /* Stretch items vertically */
+}
+
+/* Adjust the image height to 100% */
+.about-img {
+    height: 100%;
+}
+
+ .about-head1 {
+    color: rgb(22, 99, 176);
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px;
+    margin: 0;
+ }
+
+ .about-head2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+ }
+
+ .s-2 {
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(22, 99, 176);
+ }
+
+ .about-para {
+    font-size: 18px;
+    font-weight:600;
+    color: #313131;
+    padding: 150px 50px 150px 50px;
+ }
+
+ .image-container {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            display: inline-block;
+            margin-bottom: 20px;
   }
 
-  .log {
-    max-width: 80%; /* Adjust the max-width value as desired */
+  .con-1 {
+    margin-top: 250px;
   }
 
-  .h-1 h1 {
-    font-size: 26px; /* Adjust the font size as desired */
+  .image-container:hover {
+    transform: scale(1.1);
+}
+  
+  .overlay-text {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 99, 176, 0.738); /* Adjust the background color as desired */
+     color: #fff;/* Adjust the text color as desired */
+    padding: 10px; /* Adjust the padding as desired */
+    font-size: 18px;
+    opacity: 1;
+  }
+  
+
+  .overlay-text h3 {
+    font-size: 20px;
+    font-weight: bold;
   }
 
-  .h-1 h1 span {
-    font-size: 38px; /* Adjust the font size as desired */
+  .s-3 {
+    font-size: 16px;
+  }
+  #service .row {
+    justify-content: space-between;
   }
 
-  .about-head1 {
-    font-size: 26px; /* Adjust the font size as desired */
-    padding: 50px 50px 20px 50px; /* Adjust the padding as desired */
+  #service {
+    background-color: #e5f3fd;
+    padding: 20px;
   }
-
-  .about-head2 {
-    font-size: 24px; /* Adjust the font size as desired */
-    margin-bottom: 20px; /* Adjust the margin as desired */
-  }
-
-  .s-2 {
-    font-size: 38px; /* Adjust the font size as desired */
-    margin-top: 20px; /* Adjust the margin as desired */
-  }
-
-  .about-para {
-    font-size: 26px; /* Adjust the font size as desired */
-    padding: 50px 10px 30px 10px; /* Adjust the padding as desired */
-  }
+  
+ .col-md-4 .first {
+  padding-top: 320px;
+}
 
   .serv-head {
-    font-size: 26px; /* Adjust the font size as desired */
-    padding: 20px 0; /* Adjust the padding as desired */
-  }
+    color: rgb(22, 99, 176);
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 150px;
+    margin: 0;
+ }
 
-  .serv-head1 {
-    font-size: 24px; /* Adjust the font size as desired */
-  }
+ .serv-head1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
 
-  .serv-head2 {
-    font-size: 38px; /* Adjust the font size as desired */
-    margin-bottom: 30px; /* Adjust the margin as desired */
-  }
+ .serv-head2 {
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(22, 99, 176);
+ }
 
-  .faq-head {
-    font-size: 26px; /* Adjust the font size as desired */
-    margin-top: 20px; /* Adjust the margin as desired */
-  }
-
-  .faq-head1 {
-    font-size: 24px; /* Adjust the font size as desired */
-  }
-
-  .faq-head2 {
-    font-size: 38px; /* Adjust the font size as desired */
-    margin-bottom: 10px; /* Adjust the margin as desired */
-  }
-
-  .faq-head3 {
-    font-size: 22px; /* Adjust the font size as desired */
-    margin-bottom: 10px; /* Adjust the margin as desired */
-  }
-
-  .faq-question h3 {
-    font-size: 14px; /* Adjust the font size as desired */
-  }
-
-  .faq-toggle {
-    font-size: 20px; /* Adjust the font size as desired */
-  }
-
-  #contact {
-    padding: 0 10px 150px 10px; /* Adjust the padding as desired */
-  }
-
-  .contact-head {
-    font-size: 26px; /* Adjust the font size as desired */
-  }
-
-  .contact-head1 {
-    font-size: 24px; /* Adjust the font size as desired */
-  }
-
-  .contact-head2 {
-    font-size: 38px; /* Adjust the font size as desired */
-    margin-bottom: 100px; /* Adjust the margin as desired */
-  }
-
-  .form {
-    padding: 60px 20px; /* Adjust the padding as desired */
-    margin-top: -200px; /* Adjust the margin-top as desired */
-  }
+ .faq-section {
+  width: 100%;
 }
+
+.r-4 {
+  display: flex;
+  align-items: stretch; /* Stretch items vertically */
+}
+
+/* Adjust the image height to 100% */
+.faq-img {
+  height: 100%;
+}
+
+.faq-question {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  padding: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.faq-question h3 {
+  margin: 0;
+}
+
+.faq-toggle {
+  float: left;
+  margin-right: 10px;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+}
+
+.faq-head {
+  font-size: 25px;
+  font-weight: 400;
+  padding: 20px 0;
+  margin: 0;
+  color: rgb(22, 99, 176);
+  margin-top: 10px;
+}
+
+.faq-head1 {
+  font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.faq-head2 {
+  font-size: 55px;
+  font-weight: 600;
+  color: rgb(22, 99, 176);
+  margin-bottom: 5px;
+}
+
+.faq-head3 {
+  font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.faq-question h3 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+}
+
+.faq-toggle {
+  font-size: 25px;
+  color: rgb(22, 99, 176);
+  font-weight: 400;
+}
+ 
+#contact {
+  background: url(images/footer/footer\ bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.contact-head{
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px 0;
+  margin: 0;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.contact-head1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.contact-head2 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 300px;
+  color: #fff;
+}
+
+.form {
+  padding: 100px 200px;
+  margin-top: -400px;
+  background-color: #fff;
+}
+
+.foot {
+  background-color: #d5dbeb;
+}
+
+.fot-img .log {
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+.max-width-20 {
+  max-width: 70%;
+}
+
+.foot-link {
+  font-size: 20px;
+  color: #000;
+}
+
+.foot-para span {
+  color: rgb(31, 75, 254);;
+}
+
+.folow {
+  margin-bottom: 5px;
+}
+ }
+
